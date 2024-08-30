@@ -9,7 +9,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Customer {
+public class Student {
+    //Atributos de un alumno
     private int id;
     @JsonProperty("name")
     private String nombre;
@@ -19,4 +20,8 @@ public class Customer {
     private int edad;
     @JsonProperty("course")
     private String curso;
+
+    //Construcutor con parametros
+
+    //Getter and Setter
 }
